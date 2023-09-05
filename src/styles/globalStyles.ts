@@ -43,6 +43,18 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         margin: 0;
         }
+
+        a{
+          text-decoration: none;
+        }
+
+        a:visited {
+          outline: none; 
+        }
+        
+        a:focus {
+          outline: none; 
+        }
     }
 
     ::-webkit-scrollbar {

@@ -64,9 +64,14 @@ const Icon = css`
     height: 2rem;
     cursor: pointer;
     margin: .5rem;
+    color: var(--white);
 
     :last-child {
         margin: 0;
+    }
+
+    :visited {
+        color: var(--white);
     }
 `;
 

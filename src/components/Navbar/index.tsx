@@ -7,16 +7,16 @@ export const Navbar = () => {
 
             <Ul>
                 <li>
-                    <a>Início</a>
+                    <a href="#">Início</a>
                 </li>
                 <li>
-                    <a>Skills</a>
+                    <a href="#about">Sobre</a>
                 </li>
                 <li>
-                    <a>Projetos</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a>Contato</a>
+                    <a href="#contact">Contato</a>
                 </li>
             </Ul>
         </Nav>
