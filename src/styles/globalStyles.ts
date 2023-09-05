@@ -73,7 +73,7 @@ export const Container = styled.section`
   gap: var(--gap);
   grid-template-columns: 1fr 1fr;
   align-items: center;
-
+  overflow: hidden;
   
   @media screen and (max-width: 1024px){
     display: flex;
