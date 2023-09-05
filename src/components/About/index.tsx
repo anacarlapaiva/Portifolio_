@@ -20,9 +20,15 @@ export const About = () => {
                 <div>
                     <ProfileImage src={Profile} alt="Profile image" />
                     <SocialMedia>
-                        <EmailIcon />
-                        <GithubIcon />
-                        <LinkedinIcon />
+                        <a href='mailto:seuemail@example.com' target="_blank">
+                            <EmailIcon />
+                        </a>
+                        <a href='https://github.com/anacarlapaiva/' target="_blank">
+                            <GithubIcon />
+                        </a>
+                        <a href='https://www.linkedin.com/in/anacarlapaiva/' target="_blank">
+                            <LinkedinIcon />
+                        </a>
                     </SocialMedia>
                 </div>
 

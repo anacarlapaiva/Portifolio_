@@ -34,6 +34,7 @@ export const InputElement = styled.input`
     border: 0;
     font-family: sans-serif;
     font-size: 1.1rem;
+    margin-bottom: 1rem;
 `;
 
 export const TextAreaElement = styled.textarea`

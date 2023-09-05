@@ -37,7 +37,7 @@ export const Contact = () => {
 
       <FormElement onSubmit={handleSubmit}>
         <label htmlFor="email">
-          Email Address
+          Endereço de email
         </label>
         <InputElement
           id="email"
