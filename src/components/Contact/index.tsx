@@ -71,7 +71,7 @@ export const Contact = () => {
 
         <ButtonContainer>
           <Button type="button" onClick={sendMessage} disabled={state.submitting}>
-            Submit
+           Enviar
           </Button>
         </ButtonContainer>
       </FormElement>
