@@ -6,6 +6,10 @@ export const ContainerElement = styled(Container)`
   flex-direction: column;
   flex: 1;
   padding: var(--gap-xl);
+
+  @media screen and (max-width: 1024px){
+    padding: 4rem var(--gap-s) 1rem;
+  }
 `;
 
 export const ParagraphItem = styled.p`
@@ -14,7 +18,7 @@ export const ParagraphItem = styled.p`
     text-align: center;
 `;
 
-export  const FormElement = styled.form`
+export const FormElement = styled.form`
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -23,6 +27,10 @@ export  const FormElement = styled.form`
 
     label {
         margin: .5rem 0 1rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+        width: 85%;
     }
 `;
 

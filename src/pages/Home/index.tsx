@@ -5,10 +5,11 @@ import { Footer } from '../../components/Footer'
 import { Navbar } from '../../components/Navbar'
 import { ScrollToTop } from '../../components/ScrollToTop'
 import { Skills } from '../../components/Skills'
+import { GlobalContent } from '../../styles/globalStyles'
 
 export const Home = () => {
     return (
-        <div>
+        <GlobalContent>
             <Navbar />
 
             <main>
@@ -21,6 +22,6 @@ export const Home = () => {
             <Footer />
 
             <ScrollToTop />
-        </div>
+        </GlobalContent>
     )
 }

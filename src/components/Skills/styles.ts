@@ -8,6 +8,10 @@ export const SkillsContent = styled.section`
   grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1024px){
+    padding: var(--gap-s);
+  }
 `;
 
 export const ListSkills = styled.div`
@@ -30,6 +34,11 @@ export const Icon = css`
 
     :hover {
         opacity: 70%;
+    }
+
+    @media screen and (max-width: 1024px){
+       width: 5rem;
+       height: 5rem;
     }
 `;
 

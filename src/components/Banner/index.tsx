@@ -1,8 +1,8 @@
 import { Container } from "../../styles/globalStyles"
 import BannerImg from '../../assets/svg/code.svg'
 import curriculoPdf from '../../assets/pdf/curriculo.pdf'
-import { ContentInfo, ImageBanner, Subtitle, Title } from "./styles"
 import { Button } from "../Button"
+import { ContentButton, ContentInfo, ImageBanner, Subtitle, Title } from "./styles"
 
 export const Banner = () => {
     return (
@@ -21,8 +21,12 @@ export const Banner = () => {
                     href={curriculoPdf}
                     download="anacarla-curriculo-pdf"
                     target="_blank"
-                    rel="noreferrer">
-                    <Button>Download currículo</Button>
+                    rel="noreferrer"
+                    aria-label="Download PDF od curriculum"
+                >
+                    <ContentButton>
+                        <Button>Download currículo</Button>
+                    </ContentButton>
                 </a>
             </ContentInfo>
 
