@@ -31,13 +31,13 @@ export const Contact = () => {
   }
 
   return (
-    <ContainerElement>
+    <ContainerElement id="contact">
       <TitlePage>Contato</TitlePage>
       <ParagraphItem>Fique à vontade para entrar em contato comigo. Será um prazer atendê-lo. <br />Disponível todos os dias.</ParagraphItem>
 
       <FormElement onSubmit={handleSubmit}>
         <label htmlFor="email">
-          Email Address
+          Endereço de email
         </label>
         <InputElement
           id="email"
@@ -71,7 +71,7 @@ export const Contact = () => {
 
         <ButtonContainer>
           <Button type="button" onClick={sendMessage} disabled={state.submitting}>
-            Submit
+           Enviar
           </Button>
         </ButtonContainer>
       </FormElement>

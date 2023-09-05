@@ -4,7 +4,7 @@ import { TitlePage } from '../../styles/globalStyles'
 
 export const Skills = () => {
     return (
-        <SkillsContent>
+        <SkillsContent id='skills'>
             <ListSkills>
                 <TitlePage>skills</TitlePage>
                 <SkillItem icon={<JavascriptIcon />} percentage="80%" />
