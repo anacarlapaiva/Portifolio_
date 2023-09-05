@@ -3,7 +3,8 @@ import { Container } from '../../styles/globalStyles'
 import { EmailOutline, GithubOutline, LinkedinOutline } from '../../styles/icons';
 
 export const ContentElement = styled(Container)`
-    padding: 2rem var(--gap-xl);
+    padding: 5rem var(--gap-xl);
+    background-color: var(--soft-black);
 `;
 
 export const ProfileImage = styled.img`
