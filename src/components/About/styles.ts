@@ -5,6 +5,10 @@ import { EmailOutline, GithubOutline, LinkedinOutline } from '../../styles/icons
 export const ContentElement = styled(Container)`
     padding: 5rem var(--gap-xl);
     background-color: var(--soft-black);
+
+    @media screen and (max-width: 768px){
+      padding: var(--gap);
+    }
 `;
 
 export const ProfileImage = styled.img`
@@ -14,6 +18,11 @@ export const ProfileImage = styled.img`
     border: 10px solid var(--blue);
     border-radius: 50%;
     margin-top: 1rem;
+
+    @media screen and (max-width: 768px){
+      width: 7rem;
+      height: 7rem; 
+    }
 `;
 
 export const Title = styled.h2`
@@ -24,6 +33,9 @@ export const Title = styled.h2`
 
     @media screen and (max-width: 1024px){
         font-size: .8rem;
+    }
+    @media screen and (max-width: 600px){
+        display: none;
     }
 `;
 
@@ -40,6 +52,9 @@ export const ContentMidias = styled.div`
         width: 100%;
         display: flex;
         align-items: center;
+    }
+    @media screen and (max-width: 600px) {
+        justify-content: center;
     }
 `;
 
