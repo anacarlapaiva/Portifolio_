@@ -1,5 +1,6 @@
 import { Container } from "../../styles/globalStyles"
 import BannerImg from '../../assets/svg/code.svg'
+import curriculoPdf from '../../assets/pdf/curriculo.pdf'
 import { ContentInfo, ImageBanner, Subtitle, Title } from "./styles"
 import { Button } from "../Button"
 
@@ -16,7 +17,13 @@ export const Banner = () => {
                     facere voluptatibus quaerat veniam magnam.
                 </Subtitle>
 
-                <Button>Download currículo</Button>
+                <a
+                    href={curriculoPdf}
+                    download="anacarla-curriculo-pdf"
+                    target="_blank"
+                    rel="noreferrer">
+                    <Button>Download currículo</Button>
+                </a>
             </ContentInfo>
 
             <ImageBanner src={BannerImg} alt="Banner image" />
