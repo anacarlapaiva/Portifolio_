@@ -14,7 +14,7 @@ import {
 
 export const About = () => {
     return (
-        <ContentElement>
+        <ContentElement id='about'>
             <ContentMidias>
                 <Title>contate-me agora!</Title>
                 <div>

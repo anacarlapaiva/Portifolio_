@@ -18,6 +18,10 @@ export const Ul = styled.ul`
   li {
     text-decoration: none;
     width: 100%;
+
+    a{
+      color: var(--white);
+    }
   }
 `;
 

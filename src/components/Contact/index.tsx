@@ -31,7 +31,7 @@ export const Contact = () => {
   }
 
   return (
-    <ContainerElement>
+    <ContainerElement id="contact">
       <TitlePage>Contato</TitlePage>
       <ParagraphItem>Fique à vontade para entrar em contato comigo. Será um prazer atendê-lo. <br />Disponível todos os dias.</ParagraphItem>
 
