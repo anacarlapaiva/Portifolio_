@@ -18,18 +18,19 @@ export const About = () => {
             <ContentMidias>
                 <Title>contate-me agora!</Title>
                 <div>
-                    <ProfileImage src={Profile} alt="Profile image" />
+                    <ProfileImage src={Profile} alt="Profile image of Ana Carla" />
                     <SocialMedia>
-                        <a href='mailto:seuemail@example.com' target="_blank">
+                        <a href='mailto:acpaiva99@outlook.com' target="_blank">
                             <EmailIcon />
                         </a>
-                        <a href='https://github.com/anacarlapaiva/' target="_blank">
+                        <a href='https://github.com/anacarlapaiva/' target="_blank" >
                             <GithubIcon />
                         </a>
                         <a href='https://www.linkedin.com/in/anacarlapaiva/' target="_blank">
                             <LinkedinIcon />
                         </a>
                     </SocialMedia>
+
                 </div>
 
             </ContentMidias>

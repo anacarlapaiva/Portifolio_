@@ -21,6 +21,10 @@ export const Title = styled.h2`
     color: var(--blue);
     font-weight: 400;
     text-transform: uppercase;
+
+    @media screen and (max-width: 1024px){
+        font-size: .8rem;
+    }
 `;
 
 export const ContentMidias = styled.div`
@@ -30,11 +34,22 @@ export const ContentMidias = styled.div`
         display: flex;
         justify-content: center;
     }
+
+    
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
 `;
 
 export const ContentAbout = styled.div`
     font-size: 1rem;
     color: var(--white);
+
+    @media screen and (max-width: 1024px) {
+        text-align: center;
+    }
 
     span {
         text-transform: uppercase;

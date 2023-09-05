@@ -51,7 +51,7 @@ export const GlobalStyles = createGlobalStyle`
         a:visited {
           outline: none; 
         }
-        
+
         a:focus {
           outline: none; 
         }
@@ -73,6 +73,13 @@ export const Container = styled.section`
   gap: var(--gap);
   grid-template-columns: 1fr 1fr;
   align-items: center;
+
+  
+  @media screen and (max-width: 1024px){
+    display: flex;
+    flex-direction: column;
+    padding: var(--gap-s);
+  }
 `;
 
 export const TitlePage = styled.h3`
@@ -81,4 +88,10 @@ export const TitlePage = styled.h3`
     width: 100%;
     color: var(--blue);
     text-transform: uppercase;
+`;
+
+export const GlobalContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 `;
